@@ -15,24 +15,26 @@
   <header>
     <div class="header__top">
       <div class="container">
-        <div class="header__top__block">
+        <div class="header__top__row">
           <div class="header__top__question">Have any question?</div>
           <div class="header__top__contacts">
-            <div class="header__top__email">contact@mail.com</div>
-            <div class="header__top__phone">+080 0444 333 444</div>
+            <span class="header__top__email">contact@mail.com</span>
+            <span class="header__top__phone">+080 0444 333 444</span>
           </div>
         </div>
       </div>
     </div>
+
     <div class="header__body">
       <div class="container">
-        <div class="header__body__block">
+        <div class="header__body__row">
           <div class="header__body__logo">
-            <img src="img/icons/logo.png" alt="BuildX">
+            <a href="#"><img src="img/icons/logo.png" alt="BuildX"></a>
           </div>
           <nav class="header__body__nav">
             <ul class="header__body__list">
-              <li class="header__nav__item"><a href="#" class="header__nav__link active">About</a></li>
+              <li class="header__nav__item"><a href="#" class="header__nav__link header__nav__link-active">About</a>
+              </li>
               <li class="header__nav__item"><a href="#" class="header__nav__link">Features</a></li>
               <li class="header__nav__item"><a href="#" class="header__nav__link">Project</a></li>
               <li class="header__nav__item"><a href="#" class="header__nav__link">Pages</a></li>
@@ -42,6 +44,7 @@
         </div>
       </div>
     </div>
+
   </header>
   <!--/header-->
 
@@ -49,12 +52,12 @@
   <section class="hero">
     <div class="container">
       <div class="hero__block">
-        <div class="hero__title">We Do Big Things
-          With Big Ideas</div>
+        <h1 class="hero__title">We Do Big Things
+          With Big Ideas</h1>
         <div class="hero__text">Talk To Our Experts and Get Your Dream Home Done. If you dream of designing
           a new home that takes full advantage of the unique geography and
           views of land that you love</div>
-        <button type="button" class="hero__btn btn">Explore Now</button>
+        <button type="button" class="hero__btn">Explore Now</button>
       </div>
     </div>
   </section>
@@ -63,9 +66,10 @@
   <!--contactUs -->
   <section class="contact">
     <div class="container">
-      <div class="contact__block">
+      <div class="contact__row">
         <div class="contact__inf">
-          <div class="contact__inf__text">Consulting And Estimate For Your Project,<span>Contact Us Today.</span></div>
+          <div class="contact__inf__text">Consulting And Estimate For Your Project,<span
+              class="contact__ing__text-black"> Contact Us Today.</span></div>
         </div>
         <div class="contact__btn">
           <button type="button" class="contact__btn__item">Get a Qoute</button>
@@ -80,42 +84,43 @@
   <section class="services">
     <div class="container">
       <div class="services__block">
-        <h2 class="services__title">Our Services</h2>
-        <p class="services__text">Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo
+        <h2 class="services__title title__section">Our Services</h2>
+        <p class="services__text subtitle__section">Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus
+          definiebas cum et. Duo
           id omnis
           persequeris
           neglegentur, facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex. Sea utamur
           iisque salutatus id.Mel autem animal.</p>
 
-        <div class="services__items">
+        <div class="services__row">
 
           <div class="services__item">
-            <div class="services__item__img img-orange"></div>
+            <div class="services__item__img services__item__img-orange"></div>
             <div class="services__item__title title-renovations">Renovations</div>
             <div class="services__item__text">Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis
               persequeris neglegentur, facete commodo ea use possit lucilius.</div>
             <div class="services__item__btn">
-              <a href="#">Read more</a>
+              <a href="#" class="services__item__link services__item__link-active">Read more</a>
             </div>
           </div>
 
           <div class="services__item">
-            <div class="services__item__img img-orange"></div>
+            <div class="services__item__img services__item__img-orange"></div>
             <div class="services__item__title title-consulting">Consulting</div>
             <div class="services__item__text">Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis
               persequeris neglegentur, facete commodo ea use possit lucilius.</div>
             <div class="services__item__btn">
-              <a href="#">Read more</a>
+              <a href="#" class="services__item__link">Read more</a>
             </div>
           </div>
 
           <div class="services__item">
-            <div class="services__item__img img-grey"></div>
+            <div class="services__item__img services__item__img-grey"></div>
             <div class="services__item__title title-smart">Smart houses</div>
             <div class="services__item__text">Lorem ipsum dolor sit amet, sed dicunt oporteat cuum Tuo iomnis
               persequeris neglegentur, facete commodo ea use possit lucilius.</div>
             <div class="services__item__btn">
-              <a href="#">Read more</a>
+              <a href="#" class="services__item__link">Read more</a>
             </div>
           </div>
 
@@ -127,7 +132,7 @@
 
   <!--functions-->
   <section class="functions">
-    <div class="functions__block">
+    <div class="functions__row">
       <div class="functions__video"></div>
       <div class="functions__descr">
         <div class="functions__items">
@@ -160,8 +165,9 @@
   <!--works-->
   <section class="works">
     <div class="works__descr">
-      <h2 class="works__title">Featured Works</h2>
-      <p class="works__text">Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id
+      <h2 class="works__title title__section">Featured Works</h2>
+      <p class="works__text subtitle__section">Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas
+        cum et. Duo id
         omnis persequeris
         neglegentur, facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex. Sea utamur iisque
         salutatus id.Mel autem animal.</p>
@@ -169,7 +175,7 @@
 
     <ul class="works__nav">
       <li class="work__nav__item"><a href="#" class="work__nav__link">All </a></li>
-      <li class="work__nav__item"><a href="#" class="work__nav__link active__link"> Green Building </a></li>
+      <li class="work__nav__item"><a href="#" class="work__nav__link work__nav__link-active"> Green Building </a></li>
       <li class="work__nav__item"><a href="#" class="work__nav__link"> Healthcare</a></li>
       <li class="work__nav__item"><a href="#" class="work__nav__link">Interior Design </a></li>
       <li class="work__nav__item"><a href="#" class="work__nav__link"> Office</a></li>
@@ -190,15 +196,16 @@
   <!--feedbacks-->
   <section class="feedbacks">
     <div class="feedbacks__descr">
-      <h2 class="feedbacks__title">Customer Feedback</h2>
-      <p class="feedbacks__text">Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id
+      <h2 class="feedbacks__title title__section">Customer Feedback</h2>
+      <p class="feedbacks__text subtitle__section">Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus
+        definiebas cum et. Duo id
         omnis persequeris neglegentur, facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex.
         Sea utamur iisque salutatus id.Mel autem animal.</p>
     </div>
     <div class="container">
-      <div class="feedbacks__body">
+      <div class="feedbacks__row">
 
-        <div class="feedbacks__item">
+        <div class="feedbacks__item  ">
           <div class="feedbacks__item__img"></div>
           <div class="feedbacks__item__msg">
             <p>I've been happy with the services provided by Construction LLC. Scooter Libby has been wonderful! He has
@@ -207,7 +214,7 @@
           </div>
         </div>
 
-        <div class="feedbacks__item">
+        <div class="feedbacks__item ">
           <div class="feedbacks__item__img"></div>
           <div class="feedbacks__item__msg">
             <p>I've been happy with the services provided by Construction LLC. Scooter Libby has been wonderful! He has
@@ -230,7 +237,7 @@
   <!--counts-->
   <section class="counts">
     <div class="container">
-      <div class="counts__block">
+      <div class="counts__row">
 
         <div class="counts__item">
           <div class="counts__title">Prjects</div>
@@ -257,7 +264,7 @@
   <!--contactUs-->
   <section class="contactUs">
     <div class="container">
-      <div class="contactUs__block">
+      <div class="contactUs__row">
         <div class="contatUs__descr">
           <div class="contactsUs__title">Embedded in our culture of hard work, honesty, and getting the well done job
           </div>
@@ -275,14 +282,15 @@
   <!--news-->
   <section class="news">
     <div class="news__descr">
-      <h2 class="news__title">Customer Feedback</h2>
-      <p class="news__text">Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas cum et. Duo id
+      <h2 class="news__title title__section">Our Featured News</h2>
+      <p class="news__text subtitle__section">Lorem ipsum dolor sit amet, sed dicunt oporteat cu, laboramus definiebas
+        cum et. Duo id
         omnis persequeris neglegentur, facete commodo ea usu, possit lucilius sed ei. Esse efficiendi scripserit eos ex.
         Sea utamur iisque salutatus id.Mel autem animal.</p>
     </div>
 
     <div class="container">
-      <div class="news__block">
+      <div class="news__row">
         <div class="news__item">
           <div class="news__item__img img__blue"></div>
           <div class="news__item__title">Construction Forklift
@@ -330,7 +338,7 @@
   <!--inf-->
   <section class="inf">
     <div class="container">
-      <div class="inf__block">
+      <div class="inf__row">
 
         <div class="inf__item inf__block__questions">
           <div class="inf__item__title">Recent Posts</div>
@@ -359,9 +367,10 @@
 
         <div class="inf__item item__block__contacts">
           <div class="inf__item__title">Contact Info</div>
-          <div class="inf__contacts__mail">hello@contact.com</div>
-          <div class="inf__contacts__phones">P: 3333 222 1111</br> F: 3333 222 1111</div>
-          <div class="inf__contacts__address">99 Barnard St - Suite 111 </br> United States - GA 22222 </div>
+          <div class="inf__contacts__mail inf__contacts__style">hello@contact.com</div>
+          <div class="inf__contacts__phones inf__contacts__style">P: 3333 222 1111<br> F: 3333 222 1111</div>
+          <div class="inf__contacts__address inf__contacts__style">99 Barnard St - Suite 111 <br> United States - GA
+            22222 </div>
           <div class="inf__contacts__socials">
             <a href="#" class="social__facebook socials__items"></a>
             <a href="#" class="social__skype socials__items"></a>
@@ -389,7 +398,7 @@
   <!--footer-->
   <footer class="footer">
     <div class="container">
-      <div class="footer__block">
+      <div class="footer__row">
         <div class="footer__company">&copy;Themexpert 2018</div>
         <ul class="footer__nav">
           <li class="footer__nav__item"><a href="#" class="footer__nav__link"> Home</a></li>
